@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Tablica</title>
+        <style>
+            html {
+                text-align: center;
+            }
+            table {
+                border:3px solid black;
+                border-collapse: collapse;
+                width: 500px;
+            }
+            th {
+                border:1px solid yellowgreen
+            }
+            td {
+                border:1px solid green;
+                text-align: center;
+            }
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>table with rowspan and colspan</h2>
+        <table class="center">
+            <tr>
+                <td colspan="2">Name</td>
+                <td>Class</td>
+                <td colspan="2">School</td>
+            </tr>
+            <td rowspan="2">Mahima</td>
+            <td rowspan="2">Gupta</td>
+            <td>11</td>
+            <td rowspan="2">MVM School</td>
+            <tr>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sri</td>
+                <td rowspan="2">Krishn</td>
+                <td>3</td>
+                <td rowspan="2">LMS School</td>
+            </tr>
+            <tr>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Shivika</td>
+                <td rowspan="2">Goyal</td>
+                <td>5</td>
+                <td rowspan="2">SPCM School</td>
+            </tr>
+        </table>
+        <p>
+            <a href="../../index.html">Povratak na početnu stranicu</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Contact us</title>
+        <style>
+            html {
+                text-align: center;
+            }
+            .submition {
+                width: 380px;
+                background: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Contact us</h1>
+        <form name="kontakt obrazac" action="" method="post" enctype="text/plain" autocomplete="off">
+            <p>
+                <label for="ime">Your name</label>
+                <br>
+                <input id="ime" type="text" placeholder="Ime i prezime" required>
+            </p>
+            <p>
+                <label for="e-mail">Your email address</label>
+                <br>
+                <input id="e-mail" type="text" placeholder="ime.prezime@gmail.com" required>
+            </p>
+            <p>
+                <label for="message">Your message</label>
+                <br>
+                <textarea id="message" name="poruka" rows="7", cols="50" placeholder="Unesite poruku" required></textarea>
+            </p>
+            <p>
+                <input class=submition type="submit" value="Send message">
+            </p>
+        </form>
+    </body>
+</html>
